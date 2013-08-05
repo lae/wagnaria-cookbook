@@ -1,5 +1,5 @@
 name             'wagnaria'
-maintainer       'lae'
+maintainer       'musee.ullah'
 maintainer_email 'milkteafuzz@gmail.com'
 license          'Unlicensed'
 description      'Installs/Configures Wagnaria'
