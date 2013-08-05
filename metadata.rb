@@ -1,0 +1,15 @@
+name             'wagnaria'
+maintainer       'lae'
+maintainer_email 'milkteafuzz@gmail.com'
+license          'Unlicensed'
+description      'Installs/Configures Wagnaria'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.1.0'
+
+depends         'mongodb'
+depends         'python'
+depends         'application'
+depends         'application_python'
+depends         'gunicorn'
+depends         'nginx_conf'
+depends         'nginx'
