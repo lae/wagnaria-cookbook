@@ -4,7 +4,7 @@ metadata
 
 # Community
 cookbook "mongodb", github: "mylons/chef-mongodb"
-cookbook "nginx_conf", github: "firebelly/chef-nginx_conf"
+#cookbook "nginx_conf", github: "firebelly/chef-nginx_conf"
 #cookbook "git"
 #cookbook "ntp", "= 1.3.2"
 #cookbook "rbenv", github: "fnichol/chef-rbenv"

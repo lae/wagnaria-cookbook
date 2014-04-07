@@ -9,8 +9,8 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--memory", 1024]
     vb.customize ["modifyvm", :id, "--cpus", 1]
   end
-  config.ssh.max_tries = 40
-  config.ssh.timeout   = 120
+#  config.ssh.max_tries = 40
+#  config.ssh.timeout   = 120
   config.berkshelf.enabled = true
   config.vm.provision :chef_solo do |chef|
     chef.run_list = [
